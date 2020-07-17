@@ -1,7 +1,9 @@
 
 # 👣 Pure CSS Art 👩
 
-View live [here](cssart.surge.sh)
+View live [here](http://cssart.surge.sh)
+
+
 <img src="Screenshot (511).png" width="600">
 <img src="Screenshot (512).png" width="600">
 <img src="Screenshot (513).png" width="600">
