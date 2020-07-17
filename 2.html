@@ -1,0 +1,164 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Popsicle</title>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="20x20">
+    <style type="text/css">
+       body {
+  background: #1C0F61;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    font-family: cursive;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ice-cream {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 240px;
+  height: 350px;
+  background: orange;
+  border-top: 8px solid red;
+  border-radius: 120px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
+
+.face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 58px;
+}
+
+.eyes {
+  display: flex;
+  justify-content: space-between;
+  width: 145px;
+}
+
+.eye {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background: red;
+  border-bottom: 2px solid #FF98CC;
+  border-radius: 100%;
+}
+
+.eye::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.mouth {
+  width: 75px;
+  height: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  border-bottom: 2px solid #FF98CC;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.stick {
+  width: 60px;
+  height: 72px;
+  background-color: brown;
+  border-top: 12px solid brown;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+    </style>
+
+
+</head>
+<body>
+     
+<a href="https://github.com/garimasingh128/css-art"><img src="forkme_right_red_aa0000.svg" style="position:absolute;top:0;right:0;" alt="Fork me on GitHub"></a>
+ <div class= "container">
+    <div class="ice-cream">
+      <div class="glare">
+      </div>
+      <div class="face">
+        <div class="eyes">
+          <div class="eye">
+          </div>
+          <div class="eye">
+          </div>
+        </div>
+        <div class="mouth">
+        </div>
+      </div>
+    </div>
+    <div class="stick">
+    </div>
+  </div>
+  <!-- .ice-cream
+    .glare
+    .face
+      .eyes
+        .eye.left
+        .eye.right
+      .mouth
+  .stick -->
+
+
+<footer>
+       <center> Made with ❤ by
+        <a target="_blank" href="https://github.com/garimasingh128">Garima Singh
+        </a></center>
+           
+     
+</footer>
+
+
+
+</body>
+
+</html>

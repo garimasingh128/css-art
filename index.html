@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>Pure CSS</title>
+<meta charset="UTF-8">
+
+    <link rel="icon" href="favicon.png" type="image/png" sizes="20x20">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    font-family: cursive;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('bg2.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("bg2.jpg");
+  min-height: 400px;
+}
+
+
+</style>
+<body>
+
+ 
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap; margin-top: -100px;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" style="margin-top: 50px;"><a href="2.html">POPSICLE</a></span>
+
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" style="margin-top: 50px;"><a href="3.html">PIGGY</a></span>
+
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" style="margin-top: 50px;"><a href="1.html">PANDA</a></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Pure CSS Art</h3>
+  <p class="w3-center"><em>I love CSS.</em></p>
+  <p>A CSS image can be made with just HTML and CSS code. HTML is a markup language that provides the basic structure and content for web pages, and CSS is what gives that content its styling. CSS images can be made by creating HTML div elements then giving them different sizes, shapes, colors, and positioning to create an overall picture.
+
+An HTML div is a tag used for grouping elements together and then styling them with CSS or giving them behavior with JavaScript.</p>
+
+ <p class="w3-center"><em>It's all divs.</em></p>
+ <p>
+For this project, all of the div elements that make up the image are nested within a parent div. This parent div is like an invisible frame around the pig's head. If the parent div is given a red border, you can see that it is essentially a box centered on the page. The child div elements positions are based on the relationship to the parent div. In other words, all the different pieces of the pig are positioned on the page in relation to that box.</p>
+  
+</div>
+
+<footer>
+       <center> Made with ❤ by
+        <a target="_blank" href="https://github.com/garimasingh128">Garima Singh
+        </a></center>
+           
+     
+</footer>
+
+</body>
+</html>
